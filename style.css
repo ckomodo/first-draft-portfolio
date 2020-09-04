@@ -2,8 +2,6 @@ body {
     background-color: salmon;
 }
 
-h1 {}
-
 img {
     height: 200px;
     width: 200px;
@@ -13,6 +11,8 @@ img {
 
 .topPart {
     top: 60px;
+    float: right;
+    background-color: wheat;
 }
 
 .navRight{
@@ -32,14 +32,20 @@ img {
 }
 
 .section3{
-    height: 10%;
+
+    height: 1%;
     width: auto;
-    border: gray solid 10px;
+    border: gray solid 1px;
     background-color: green;
 }
 
-.footer{
+.footer{ 
+
     height: 30%;
     width: auto;
     background-color: yellow;
+    border: rgb(150, 224, 11) solid 1px;
+    margin-bottom: 100px;  
 }
+
+
