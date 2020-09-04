@@ -1,6 +1,45 @@
 body {
-    background-color: gray;
+    background-color: salmon;
 }
+
+h1 {}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 2%;
+}
+
+.topPart {
+    top: 60px;
+}
+
 .navRight{
     float: right;
+}
+
+.container1 {
+    
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 45%;
+    border: gray solid;
+    padding: 1%;
+    width: 30%;
+    
+}
+
+.section3{
+    height: 10%;
+    width: auto;
+    border: gray solid 10px;
+    background-color: green;
+}
+
+.footer{
+    height: 30%;
+    width: auto;
+    background-color: yellow;
 }
