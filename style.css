@@ -1,3 +1,6 @@
-body{
-    background-color: salmon;
+body {
+    background-color: gray;
+}
+.navRight{
+    float: right;
 }
