@@ -1,5 +1,5 @@
 body{
-     background-color: salmon;
+     background-color: silver;
 }
 
 /* .main {
@@ -18,3 +18,7 @@ img {
     height: au;
     width: auto;
 } */
+
+.backColor{
+    background-color: snow;
+}
