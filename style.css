@@ -1,0 +1,20 @@
+body{
+     background-color: salmon;
+}
+
+/* .main {
+    background-color: white;
+} */
+.footer{
+    border: 1px solid red;
+    height: 5%;
+    width: auto;
+    margin-bottom: 10%;
+    background-color: green;
+
+}
+/*
+img {
+    height: au;
+    width: auto;
+} */
