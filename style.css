@@ -1,24 +1,40 @@
 body{
-     background-color: silver;
+     background-color: salmon;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRstSMu5d2Kn_eNh0J4r7w1ng1DkogbBRlLQ&usqp=CAU")
 }
 
-/* .main {
-    background-color: white;
-} */
-.footer{
-    border: 1px solid red;
-    height: 5%;
-    width: auto;
-    margin-bottom: 10%;
-    background-color: green;
-
-}
-/*
 img {
-    height: au;
-    width: auto;
-} */
+    margin-left: auto
+}
 
+.topBody{
+    padding-top: 6vw;
+}
+.bar{
+    width: 65vw;
+}
+
+.pict{
+    margin-left: 0.1rem;
+}
+
+.para2{
+    align-items: center;
+}
 .backColor{
     background-color: snow;
+}
+
+.footer {
+    background-color: rgb(63, 141, 76);
+    /* position: absolute; */
+    margin-top: 10vw;
+    margin-bottom: 0.005vw;
+    height: 4.5vw;
+    border: 0px;
+    opacity: 0.5;
+}
+
+.footerPara{
+    padding-top: 2vw;
 }
