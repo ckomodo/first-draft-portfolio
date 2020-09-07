@@ -13,7 +13,7 @@ img {
 }
 
 .topBody{
-    padding-top: 6vw;
+    padding-top: 6vw; /*pushes the main content 6vw below the navbar*/
 }
 .bar{
     width: 65vw;
@@ -31,7 +31,7 @@ img {
 }
 
 .footer {
-    background-color: rgb(63, 141, 76);
+    background-color: rgb(63, 141, 76); /*creates the footer at the bottom of the page*/
     /* position: absolute; */
     margin-top: 10vw;
     margin-bottom: 0.005vw;
