@@ -1,5 +1,5 @@
 body{
-     background-color: salmon;
+     background-color: snow;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRstSMu5d2Kn_eNh0J4r7w1ng1DkogbBRlLQ&usqp=CAU")
 }
 
@@ -8,7 +8,8 @@ h1{
 }
 
 img {
-    margin-left: auto
+    /* margin-left: auto; */
+    
 }
 
 .topBody{
