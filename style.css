@@ -30,6 +30,11 @@ img {
     background-color: snow;
 }
 
+.card {
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
 .footer {
     background-color: rgb(63, 141, 76); /*creates the footer at the bottom of the page*/
     /* position: absolute; */
