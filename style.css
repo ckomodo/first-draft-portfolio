@@ -69,3 +69,10 @@ img {
     width: auto;
     height: auto;
 }
+
+a:visited{
+    color: green;
+}
+a:hover{
+    color: red;
+}
