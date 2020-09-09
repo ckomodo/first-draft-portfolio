@@ -11,6 +11,18 @@ I have always wanted to provide solutions through logic and great code. This is 
 -BOOTSTRAP
 -CSS
 
+## Link to deployed website:
+https://ckomodo.github.io/first-draft-portfolio/index.html
+
+
+
+
+
+
+
+
+
+
 ## Author Info
 Feel free to contact and collaborate with me through the following platforms:
 Twitter: @slimsakwa
