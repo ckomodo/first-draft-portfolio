@@ -14,9 +14,9 @@ I have always wanted to provide solutions through logic and great code. This is 
 ## Link to deployed website:
 https://ckomodo.github.io/first-draft-portfolio/index.html
 
+## Screenshot of Homepage
 
-
-
+![homepage screenshot](images/homepage_screenshot.png)
 
 
 
