@@ -8,7 +8,7 @@ h1{
 }
 
 img {
-    /* margin-left: auto; */
+    /* margin-right: 3%; */
     
 }
 
@@ -20,11 +20,12 @@ img {
 }
 
 .pict{
-    margin-left: 0.1rem;
+    margin-left: -8%;
 }
 
 .para2{
     align-items: center;
+    margin-left: 3%;
 }
 .backColor{
     background-color: snow;
