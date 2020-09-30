@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    color: green;
+    color: rgb(187, 236, 9);
     margin-left: 0.5%;
 }
 
@@ -12,7 +12,13 @@ img {
     /* margin-right: 3%; */
     
 }
+p > span{
+    font-style: italic;
+}
 
+.topBar{
+    color: rgb(red, green, rgb(174, 226, 31));
+}
 .topBody{
     padding-top: 6vw; /*pushes the main content 6vw below the navbar*/
 }
@@ -45,13 +51,13 @@ a:hover{
 }
 
 .footer {
-    background-color: rgb(63, 141, 76); /*creates the footer at the bottom of the page*/
+    background-color: #ffc107; /*creates the footer at the bottom of the page*/
     /* position: absolute; */
     margin-top: 10vw;
     margin-bottom: 0.005vw;
     height: 4.5vw;
     border: 0px;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .footerPara{

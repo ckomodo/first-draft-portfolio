@@ -12,8 +12,8 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-info mx-auto">
-    <a class="navbar-brand text-white font-weight-bold">christopher s wesonga</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning mx-auto">
+    <a class="navbar-brand font-weight-bold">christopher s wesonga</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,9 +23,9 @@
 
         <a class="nav-link active text-white text-monospace bar"><span class="sr-only">(current)</span></a>
         <!--no text so the rest of the tab is pushed to the right of the screen-->
-        <a class="nav-link active text-white text-monospace" href="index.html">Home</a>
-        <a class="nav-link text-white text-monospace" href="contact.html">Contact</a>
-        <a class="nav-link text-white text-monospace" href="portfolio.html">Portfolio</a>
+        <a class="navbar-brand  font-weight-bold" href="index.html">Home</a>
+        <a class="navbar-brand  font-weight-bold" href="contact.html">Contact</a>
+        <a class="navbar-brand  font-weight-bold" href="portfolio.html">Portfolio</a>
       </div>
     </div>
   </nav>
@@ -38,12 +38,44 @@
           <div class="col-md-4">
 
             <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2017/06/05/15/52/calculator-2374442__340.png" class="card-img-top"
-                alt="calculator">
+              <img src="./images/Ven-U.png" class="card-img-top" alt="calculator">
               <div class="card-block">
 
                 <div class="card-body">
-                  <p class="card-text">Calculator</p>
+                  <p> <a class="card-text" href="https://ajm5099.github.io/Music-Discovery/">Ven-U</a></p>
+                  <p>VenU is a music-discovery website for fans of live music discover new artists and shows. The search
+                    functionality allows you to search for a band and retrieve a live performance only by said band.
+                    There is also currently live broadcasts for the user to browse, <span> when available.</span></p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    My role in the project
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!-- <div class="modal-header"> -->
+                          <!-- <h5 class="modal-title" id="exampleModalLabel"></h5> -->
+                          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+                            <!-- <span aria-hidden="true">&times;</span> -->
+                          <!-- </button> -->
+                        <!-- </div> -->
+                        <div class="modal-body">
+                          <p>This was my first real-world application to make. Other than the overall design, my other roles
+                            included ensuring the nav-bar is responsive, setting up all the cards and getting 24/7
+                            live-streaming channels. I learned to use Materialize, which is a CSS framework I had not
+                            used before. I learned how in coding, team work achieves so much in lesser time than coding
+                            solo and to be careful with Git!</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -120,7 +152,7 @@
           </div>
         </div>
       </main>
-      
+
     </div>
     <footer class="footer">
       <div class="row align-content-center">
@@ -142,4 +174,5 @@
       crossorigin="anonymous"></script>
 
 </body>
+
 </html>
