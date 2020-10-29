@@ -82,20 +82,34 @@
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2020/02/05/09/02/cloud-4820504__340.jpg" class="card-img-top"
-                alt="weather app">
+              <img src="images/patchedapp-homepage.png" 
+                class="card-img-top" alt="patched app homepage">
               <div class="card-block">
-
                 <div class="card-body">
-                  <p class="card-text">Weather App</P>
+                  <p> <a "card-text" href="https://patchedapp.herokuapp.com/">Patched</a></p>
+                  <p>Patched is a community sharing and cultivating open spaces and gardens. This project was inspired by Seattle's P-Patch program</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patchedModal">
+                    My role in the project
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="patchedModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <p>I worked in the back-end using NodeJS, incorporated Nodemailer and supported the front-end team on some Handlebars</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div> 
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-          </div>
         </div>
         <br>
         <div class="row">
@@ -108,51 +122,60 @@
               <div class="card-block">
 
                 <div class="card-body">
-                  <p>This program allows a user to add, "eat" or "delete a burger from a menu.</p>
                   <p> <a class="card-text" href="https://cw-burger-app.herokuapp.com/">Eat-Da-Burger-app</a></p>
+                  <p>This program allows a user to add, "eat" or "delete" a burger from a menu.</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#burgerModal">
+                    My role in the project
+                  </button>
+                  <div class="modal fade" id="burgerModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <p>I worked in the backend using NodeJS and did front-end design </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8AAAD6+vr09PTV1dX39/c3Nzc6Ojp5eXn7+/uAgIDw8PBCQkJ8fHyYmJhra2vm5uYiIiJ0dHTOzs5LS0vc3NwzMzOqqqpmZmbIyMhISEhcXFxXV1fh4eG8vLzr6+uHh4eUlJQYGBi1tbWjo6MMDAwmJiYaGhotLS2NjY2vr6+07aDMAAAGbklEQVR4nO2da1fqTAyFWwp6jkVAuctdLiL//we+FPC8SjNp0hZnl5XnK8WVbZJJ5tIhCAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMIwjtUWnX6/3O4uGb0tuQn3TftyGZx5Grbpve0pmsdqHV7wsZ76tKo/Z6FrememdODJ+ovUltDu+rSuB9btb4JGNb/sKwzjwzOSvbxMLEfWyBIbhYOHbygI0HrMFhuGuuslYe5AIPBaOyLelOYmEAsOw6dvUfESiED2z9G1sHmoDucAw7Po2V480By8MfNurRp6DF6pW+TU5eMG3yTqUIXri4NtoDY0cAsNH31YryBGiCX3fdovhPNhbzeebNv1Zy7fhUpgc3F9mvAtS48Sv3WIid6H/JmFDfPwR+7NaAZOD7e/P/SEeqMS6DdOqjX48GBFPjD0ZrYEZZEZXjz6nHxl6sVkF06pdCwzW6WfwB1NmRt9OPVyvoEKmTKQ8GATd6inUhOiRYeUUSsvEF0TRxx5pmFGUFNghHoSuFrocPEKtoyIvKjKtGi2Qaml2wGuK2hykl/qBO28mRBUCgVdqFK3aGSpEQ+DGm6mDtAeJjjTh7ZftFqNq1RJc223rXzZcijoHHR6EXU1UtmrOHIR1IVMmXskvOHeEQXefmBBVCgwxT2Woc9AZoqDTirLKROjKWd+Ul4NhE/I4RkmtWsIDZMutnQ8yOfgAeVKxxBAd1H7ZdhGMB7UCHyFDtLxWLRxACmRm9OochAzREnMQc5BhNl/uIwfvv0xoR1H3IIOZg8yM/g/5BSZEIT2oni65PVi5HKQFunMQ04NllgnI2QTjQXUOQoaoOgeZMgEpkGnV1DkIGaJMDqpDFLIOMq2aVmATMkTvv0xoR1Gm0EPmINOqPZNfYEIU0oN336qpZxPuHGxCjqJxeSGKlYOd7nDZnvaazV1pAoFyMFq33br+UdkyEQ+b2epCV5lgchAkRLuvInlh+ER+nQlRjEGmOxXq0+cgRJnoiPU5BDIhipCDtU+xvvCdNNhd6CFysK56VWlLHJR0h+gbggdbGn0Jn9d/gfEggMCa494KjquThNhlIpZVwCt6312DvUcfv+QReEyv/0scdg7G/M0cDNOvP4FdJvJ6MOFyDAa7TDRy5eAXp6NMTIgitGqTIgJPLxC4PYiQg/o6eMV7jRGI4EHi5SOtROcnEOcpG6kLuH6wbU5Hk55gMkwBEaLBkrHwab5onEbCWjRebpkHaRDKRBD0nfZNrjtr+czxDMjBe9cdThPqwG73TSMQoA4eGTvMmzuel4+7PYgQDQLaKU33W/Guf0nKgyACaXvpUz8X6qIRByQHg4CcE9KLoP8gXk9O0UMo9AkLyrpp1rfm2QJBQpQeN3bZQ6C7SbsIxBhFE6hWRXBDTMRPtmBykH7TOLW6REG8Zf7NgzAhShq6lZnHOBGlTJwgujDhW6ruwt+7rck6ah9pA4VjBBXfZ4E4g0xANt30dhmBYzqFlIMBWdfENxfScy6YQn9hlTZR7ALiZhmwHExIb4TK3/enlj7QPEgtsS3F3yWGmj3EBugP0jMn+dUpcVohxKrTD4iTePKrUyqhMEovsskvgZ0RaXhDW/NBbFbIX6Ymps5415IUUki0tOzKgBeIHTW5QmKKuLyZpXlZpBdc5AqJlhbvDqsiCqnOG++uamKRRqyQmj3h3WFVRCGxm7O7pa35KKCQWm3DG0qLKKSODAPeLUOMFkKF5EIUXt+dXyG5jozXlZKtpUwheXIDrxrmV0ifIEa8wzmnQnqFJmM3xw/EUptAoWPPAq+hCchdskyFkWMrP3O/ygs5FM5dJ2cgXUgtl/EK+87TYZgupKbpnMIxc/oNr+k+IVZYa8zW7Esmoh05DxDt86E7nq8Pw02rtfpcPj2/vo4m016TPxaGentHINmOF4J5GWDg2HrIAeZlgAmHcgRiXgZ4gt2MFwPyPhpJKQpfEDvuL6ifedHyjiywDIXQHix+gJ09wghBYYUTrGMJaYoqxK2DXxTLwz3mhOkHhd6zWKJHaELGCUOOXkV+4m6VU98b9C+lfCciNgGzGVVGX8C9TeJi16rY72f3Nan4MR2CrlZwNFrsBH67fX/Z7R/eJq+reR/qXKWCRn3YarU2m+HhsJ7Px+Nuvd6fzWadzuJEHMdRFQqDYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRjGzfgPMChR9raiJ/oAAAAASUVORK5CYII="
-                class="card-img-top" alt="paintbrush">
-              <div class="card-block">
-
-                <div class="card-body">
-                  <p class="card-text">Painting app</p>
-                </div>
-              </div>
-            </div>
-          </div> 
-         </div>
-        <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-2">
-
+              <div class="col-md-4">
                 <div class="card">
-                  <img src="https://static.thenounproject.com/png/180732-200.png" class="card-img-top" alt="yoga pose">
+                  <img src="images/passwordGeneratorHomepage.png" class="card-img-top" alt="password generator homepage">
                   <div class="card-block">
-
                     <div class="card-body">
-                      <p class="card-text">Yoga</p>
+                      <p> <a class="card-text" href="https://ckomodo.github.io/password-generator/" >Password Generator</a></p>
+                      <p>A program that creates a random password with the length and characters specified by a user</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#passwordModal">
+                      My role in the project
+                    </button>
+                  </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="passwordModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <p>Sole author</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div> 
-
-            </div>
-          </div>
-        </div>
-      </main>
+         </div>
+        </main>
 
     </div>
     <footer class="footer">
